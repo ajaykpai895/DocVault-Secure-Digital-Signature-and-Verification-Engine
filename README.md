@@ -43,49 +43,49 @@
 ### 02 — Verify Document: Authentic ✅
 > The SHA-512 hash matches exactly and the ECDSA signature is cryptographically valid against the signer's public key.
 
-![Verify Authentic](screenshots/02_verify_authentic.png)
+![Verify Authentic](Screenshots/02_verify_authentic.png)
 
 ---
 
 ### 03 — Verify Document: Tampered ⚠️
 > The SHA-512 hash of the re-uploaded file does not match the stored hash — the document has been altered after signing.
 
-![Verify Tampered](screenshots/03_verify_tampered.png)
+![Verify Tampered](Screenshots/03_verify_tampered.png)
 
 ---
 
 ### 07 — System Audit Trail: Live Records
 > A fully populated audit log showing 66 events — UPLOAD, SIGN, and VERIFY actions with timestamps, document IDs, actors, and colour-coded results (VALID / SUCCESS / TAMPERED).
 
-![Audit Trail With Records](screenshots/07_audit_with_records.png)
+![Audit Trail With Records](Screenshots/07_audit_with_records.png)
 
 ---
 
 ### 06 — Audit Trail: Filter Panel (Full View)
 > The audit log filter bar allowing users to narrow results by action type (Upload / Sign / Verify) and result status.
 
-![Audit Filter Full](screenshots/06_audit_filter_full.png)
+![Audit Filter Full](Screenshots/06_audit_filter_full.png)
 
 ---
 
 ### 05 — Audit Trail: Filter (Compact View)
 > Same filtering interface at a narrower viewport, demonstrating the responsive layout.
 
-![Audit Filter](screenshots/05_audit_filter.png)
+![Audit Filter](Screenshots/05_audit_filter.png)
 
 ---
 
 ### 04 — Audit Trail: UI Layout
 > The overall page structure of the System Audit Trail — header, filters, table columns, and empty state placeholder.
 
-![Audit UI](screenshots/04_audit_trail_ui.png)
+![Audit UI](Screenshots/04_audit_trail_ui.png)
 
 ---
 
 ### 01 — Audit Trail: Early Development State
 > The audit page captured during early development before the Vite proxy `/audit` route was configured.
 
-![Audit Empty](screenshots/01_audit_trail_empty.png)
+![Audit Empty](Screenshots/01_audit_trail_empty.png)
 
 ---
 
